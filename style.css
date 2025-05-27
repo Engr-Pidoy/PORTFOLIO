@@ -906,6 +906,9 @@ margin-right: 40px;
 footer{
   width: 100%;
 }
+  .card p {
+font-size: 0.6rem;
+  }
 
 }
 .buttons .btn, nav ul li a {
