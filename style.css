@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+  width: 100%;
 }
 
 
@@ -402,10 +402,11 @@ main {
 }
 
 .soft-skills {
-position: flex;
-justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 1rem;
-margin-bottom: 80px;
+  margin-bottom: 80px;
+
 }
 
 .htwotwo {
