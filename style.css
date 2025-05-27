@@ -814,7 +814,6 @@ footer {
 @media (max-width: 768px) {
   .menu-toggle {
     display: block;
-     margin-right: 50px;
   }
   nav {
     display: none;
@@ -903,7 +902,7 @@ margin-right: 50px;
 
 }
 .soft-skills{
-  max-width: 500px;
+  width: 100%;
   align-items: center;
   justify-content: center;
 
