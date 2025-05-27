@@ -15,7 +15,6 @@ body {
   line-height: 1.6;
   position: relative;
   overflow-x: hidden;
-  width: 100%;
 }
 
 /* Header Styles */
@@ -908,7 +907,7 @@ margin-right: 50px;
 
 }
   .hero{
-  width: 100%;
+  width: 120%;
   box-sizing: border-box;
 }
 .footer{
