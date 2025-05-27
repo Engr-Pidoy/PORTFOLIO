@@ -842,6 +842,7 @@ footer {
   .header-container {
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
   }
    .hero {
     flex-direction: column;
