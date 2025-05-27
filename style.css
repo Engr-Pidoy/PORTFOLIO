@@ -5,7 +5,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
 
@@ -16,6 +15,7 @@ body {
   line-height: 1.6;
   position: relative;
   overflow-x: hidden;
+  width: 100%;
 }
 
 /* Header Styles */
@@ -83,10 +83,10 @@ main {
     justify-content: space-between;
    align-items: center;
    padding: 120px;
+   width: 100%;
    background-color: #0c0c24; 
   background-image: linear-gradient(#0c0c24, #1a1a40);
   margin-bottom: 100px #1a1a40;
-  width: 100%;
  
 }
 
@@ -302,14 +302,14 @@ main {
 
 
 /* Power ups section */
-/* Power ups section */
 .power {
   background-color: #1a1a3f;
   justify-content: center;
   width: 100%;
   margin: auto;
   text-align: center;
-  padding: 0 20px;
+    position: relative;
+  z-index: 10;
 }
 
 .power h1 {
@@ -348,7 +348,7 @@ main {
 
 .technical-skills {
   flex: 1;
-  min-width: 300px;
+  max-width: 600px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -357,8 +357,7 @@ main {
 }
 
 .soft-skills {
-  flex: 1;
-  min-width: 300px;
+  max-width: 400px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -402,10 +401,10 @@ main {
 }
 
 .soft-skills {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+position: flex;
+justify-content: center;
   gap: 1rem;
-  margin-bottom: 80px;
+margin-bottom: 80px;
 }
 
 .htwotwo {
