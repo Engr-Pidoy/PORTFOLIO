@@ -846,8 +846,8 @@ footer {
        flex-direction: column;
   }
 .hero-text h1{
-font-size: 50px;
-margin-right: 50px;
+font-size: 40px;
+margin-right: 40px;
 }
  
   .hero-text, .hero-image {
@@ -861,8 +861,8 @@ margin-right: 50px;
      margin-right: 50px;
   }
   .hero-image img {
-    margin: 20px 0;
-    width: 350px;
+    margin: 70px 0;
+    width: 600px;
     height: auto;
   }
   .buttons{
@@ -899,7 +899,7 @@ margin-right: 50px;
 
 }
 .soft-skills{
-  width: 80%;
+  width: 70%;
   align-items: center;
   justify-content: center;
 
