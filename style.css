@@ -907,23 +907,13 @@ margin-right: 50px;
 
 }
   .hero{
-  width: 115%;
+  width: 100%;
 }
-  .power{
-    width: 100%
-  }
+
 footer{
-  width: 115%;
+  width: 100%;
 }
-  .about-section{
-    width: 100%
-  }
-  .contact-section{
-    width: 100%
-  }
-  .projects-section{
-    width: 100%
-  }
+
 }
 .buttons .btn, nav ul li a {
   position: relative;
