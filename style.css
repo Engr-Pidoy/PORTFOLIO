@@ -927,6 +927,9 @@ margin-right: 50px;
 .contacttwo{
   width: 450px;
 }
+  .soft-skills{
+  max-width: 100px;
+}
 }
 .buttons .btn, nav ul li a {
   position: relative;
