@@ -900,7 +900,10 @@ margin-right: 40px;
 }
 .soft-skills{
   width: 100%;
-
+  align-items: center;
+  justify-content: center;
+  position: flex;
+  
 }
 
 footer{
