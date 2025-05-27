@@ -907,9 +907,12 @@ margin-right: 50px;
 
 }
   .hero{
-  width: 120%;
+  width: 100%;
   box-sizing: border-box;
 }
+  body{
+    width: 100%
+  }
 .footer{
   width: 100%;
 }
