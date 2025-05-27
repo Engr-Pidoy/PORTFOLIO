@@ -846,7 +846,6 @@ footer {
    .hero {
     flex-direction: column;
     text-align: center;
-    justify-content: center;
   }
 .hero-text h1{
 font-size: 50px;
