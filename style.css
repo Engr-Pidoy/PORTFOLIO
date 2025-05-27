@@ -842,8 +842,8 @@ footer {
     width: 100%;
   }
    .hero {
-    text-align: center;
      width: 100%;
+       flex-direction: column;
   }
 .hero-text h1{
 font-size: 50px;
@@ -877,7 +877,7 @@ margin-right: 50px;
   grid-template-columns: repeat(2, minmax(200px, 1fr));
 }
 .sun{
-
+     right: 50px;
     top: 120px;
   width: 60px;
   height: 60px;
@@ -899,13 +899,10 @@ margin-right: 50px;
 
 }
 .soft-skills{
-  width: 85%;
+  width: 80%;
   align-items: center;
   justify-content: center;
 
-}
-  .hero{
-  width: 100%;
 }
 
 footer{
