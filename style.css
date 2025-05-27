@@ -908,8 +908,10 @@ margin-right: 50px;
 }
   .hero{
   width: 115%;
-  box-sizing: border-box;
 }
+  .power{
+    width: 100%
+  }
 footer{
   width: 115%;
 }
