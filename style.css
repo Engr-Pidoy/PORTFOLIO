@@ -915,6 +915,15 @@ margin-right: 50px;
 footer{
   width: 115%;
 }
+  .about-section{
+    width: 100%
+  }
+  .contact-section{
+    width: 100%
+  }
+  .projects-section{
+    width: 100%
+  }
 }
 .buttons .btn, nav ul li a {
   position: relative;
