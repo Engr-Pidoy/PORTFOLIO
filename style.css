@@ -907,6 +907,13 @@ margin-right: 50px;
   justify-content: center;
 
 }
+  .hero{
+  width: 100%;
+  box-sizing: border-box;
+}
+.footer{
+  width: 100%;
+}
 }
 .buttons .btn, nav ul li a {
   position: relative;
