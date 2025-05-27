@@ -814,8 +814,8 @@ footer {
 @media (max-width: 768px) {
   .menu-toggle {
     display: block;
+     margin-right: 50px;
   }
-
   nav {
     display: none;
     background-color: #0e0e26;
@@ -824,7 +824,6 @@ footer {
     left: 0;
     z-index: 999;
   }
-
   nav ul {
     flex-direction: column;
     align-items: flex-start;
