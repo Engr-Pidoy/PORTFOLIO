@@ -842,7 +842,6 @@ footer {
     width: 100%;
   }
    .hero {
-    flex-direction: column;
     text-align: center;
      width: 100%;
   }
@@ -863,7 +862,7 @@ margin-right: 50px;
   }
   .hero-image img {
     margin: 20px 0;
-    width: 150px;
+    width: 350px;
     height: auto;
   }
   .buttons{
