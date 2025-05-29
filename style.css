@@ -115,7 +115,7 @@ main {
 
 .buttons .btn {
   display: inline-block;
-  padding: 10px 25px;
+  padding: 10px 15px;
   font-size: 12px;
   font-weight: bold;
   margin-right: 10px;
@@ -597,10 +597,14 @@ margin-bottom: 50px;
 
 .sectionone{
   display: flex;
- flex: wrap;
- justify-content: center;
- gap: 20px;
- 
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #679cf048;
+  max-width: 600px;
+  width: 100%;        /* Allow shrinking */
+  box-sizing: border-box; /* Prevent border from overflowing */
+  margin: 0 auto;   
 }
 .contact-section h1 {
   color: #ffd166;
@@ -654,23 +658,17 @@ margin-bottom: 50px;
   color: #ffd95a;
 }
 .contacttwo{
-    display: flex;
-     padding: 60px 20px;
- justify-content: center;
+ position: flex;
+  justify-content: flex start;
   flex-wrap: wrap;
-  gap: 40px;
-  border: 4px solid;
-  border-image: linear-gradient(to right , rgb(174, 254, 174), rgb(127, 127, 247)) 1;
-    border-radius: 10px;
-    display: block;
-    text-align: left;
-    max-width: 1000px;
+  gap: 20px;
 }
 
 .contacttwo h2{
 font-size: 18px;
 color: #06d69f;
 padding: 30px;
+ width: 100%;       
 }
 
 .contacttwo p{
@@ -821,6 +819,7 @@ footer {
     top: 70px;
     left: 0;
     z-index: 999;
+    justify-content: end;
   }
   nav ul {
     flex-direction: column;
@@ -885,18 +884,32 @@ margin-right: 40px;
 .skill{
   margin-left: 50px;
 }
+
 .sectionone{
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #679cf048;
+width: 0;
 
 }
+
+.contacttwo{
+   position: flex;
+  justify-content: flex start;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 20px;
+}
+
+
 .contact-form, .contacttwo{
   margin: 0px;
 
 }
 .contacttwo{
-
+width: 100%;
 }
 .soft-skills{
   width: 100%;
@@ -920,4 +933,17 @@ font-size: 0.9rem;
 .buttons .btn, nav ul li a {
   position: relative;
   z-index: 10;
+}
+
+
+.arduino-container {
+  display: flex;
+  justify-content: center;  /* centers content horizontally */
+  align-items: center;      /* centers content vertically if needed */
+  margin: 0 auto;           /* centers the container itself */
+  padding: 2rem;
+  border: 2px solid #007ACC; /* blue border */
+  border-radius: 1rem;
+  max-width: 800px;         /* optional: to control width */
+  background-color: #fff;   /* optional: background behind content */
 }
