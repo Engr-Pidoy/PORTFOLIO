@@ -887,12 +887,14 @@ margin-right: 40px;
 
 .sectionone{
   display: flex;
-
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   border: 5px solid #679cf048;
-width: 0;
-
+  max-width: 400px;
+  width: 100%;        /* Allow shrinking */
+  box-sizing: border-box; /* Prevent border from overflowing */
+  margin: 0 auto;  
 }
 
 .contacttwo{
@@ -938,12 +940,12 @@ font-size: 0.9rem;
 
 .arduino-container {
   display: flex;
-  justify-content: center;  /* centers content horizontally */
-  align-items: center;      /* centers content vertically if needed */
-  margin: 0 auto;           /* centers the container itself */
+  justify-content: center;  
+  align-items: center;    
+  margin: 0 auto;         
   padding: 2rem;
-  border: 2px solid #007ACC; /* blue border */
+  border: 2px solid #007ACC; 
   border-radius: 1rem;
-  max-width: 800px;         /* optional: to control width */
-  background-color: #fff;   /* optional: background behind content */
+  max-width: 800px;        
+  background-color: #fff; 
 }
