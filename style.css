@@ -935,7 +935,7 @@ font-size: 0.9rem;
   }
   .allimg{
     width: 280px;
-    height: 400px;
+    height: 450px;
     position: flex;
   }
 }
@@ -1005,4 +1005,20 @@ margin-bottom: 30px;
 
 .allimg {
   margin-top: 30px;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+   background-color: #08a9ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 50px;
+   border: 4px solid;
+  box-shadow: 0 6px #cc4b4b;
+}
+button:hover {
+  background-color: #536e5d;
 }
