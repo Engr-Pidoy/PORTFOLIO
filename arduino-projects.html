@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preal Jesse Gepulgane | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+   <script src="script.js" defer></script>
+   <audio autoplay loop hidden>
+  <source src="music/Fix-It Felix Music from Wreck-It Ralph.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+  </head>
+
+  <body>
+    <header>
+          <div class="header-container">
+    <a href="index.html" class="logo">
+      <img src="image/logo.png" width="200" height="40" alt="Preal Jesse Logo">
+    </a>
+
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div> <!-- Hamburger Icon -->
+
+    <nav id="nav-menu">
+      <ul>
+     <li><a href="about.html">About Me</a></li>
+       <li><a href="powerups.html">Power-ups</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+         </header>
+
+
+        <main>
+            <section class="project-arduino">
+                <div>
+                 <div class="arduino-title">
+                        <h1>ARDUINO PROJECTS</h1>
+                        <p>"Electrons don’t lie—your code either works or it doesn’t."</p>
+                 </div>
+                </div>
+                     <div class="arduino-container">
+                    <div class="content-image">
+                     <img class="allimg" src="image/project1.jpg" alt="projectone" height="400" width="600">
+                      <h2>🧠 Project Title: Color Detection Eraser</h2>
+                      <p>🎯 Goal: Automatically erase a surface (like a whiteboard or paper) only when
+                         a specific color is detected using a sensor. A solenoid moves the eraser, and 
+                         magnets help with alignment or control.</p>
+                     <p>The Arduino-based color detection eraser is an automated project designed to 
+                        identify specific colors on a surface—such as a whiteboard or paper—and erase 
+                        them selectively. At the heart of the project is a color sensor (like the TCS3200 or TCS34725),
+                         which reads the color of the markings. The Arduino processes the sensor data and checks whether
+                          the detected color matches a predefined target (for example, red ink). Once the target color is 
+                          identified, the Arduino triggers a solenoid actuator, which physically pushes the eraser down onto
+                           the surface. The solenoid acts like an electromagnetic plunger, providing the force needed to erase
+                            the markings. To aid in the movement and positioning of the eraser, magnets are incorporated into
+                            the system. These can be used to guide the eraser smoothly along a track or to interact with a Hall
+                             effect sensor that helps the Arduino determine the position of the eraser. The magnetic setup ensures 
+                             precision and can help return the eraser to a default or "home" position after each operation. This
+                              project combines elements of color sensing, electromagnetism, and mechanical control, demonstrating
+                               how Arduino can be used to build smart systems that respond to visual inputs. It can be expanded with
+                                features like servos for lateral movement or LED indicators for feedback, making it an engaging project
+                                 for learning automation and embedded systems.</p>
+</div>
+        <div class="content-image">
+        <img class="allimg" src="image/project2.jpg" alt="projecttwo" height="400" width="600">
+        <h2>🧠 Project Title: SUMOROBOT</h2>
+        <p>🎯 Goal: The goal of the Sumo Robot project is to design and build an autonomous robot 
+            that can intelligently detect, engage, and push an opponent robot out of a circular 
+            arena without exiting the ring itself. This involves implementing precise sensor-based
+             navigation, strategic movement, and strong motor control to win matches, while also 
+             developing the builder’s skills in robotics, electronics, and programming.</p>
+        <p>The Sumo Robot project is a robotics competition challenge where an autonomous robot is 
+            designed to detect and push an opponent out of a circular ring while avoiding self-elimination.
+             The project involves integrating sensors such as infrared or ultrasonic for opponent detection 
+             and line sensors for edge detection, all controlled by a microcontroller like an Arduino. The main
+              goal is to create a fast, stable, and intelligent robot that can make real-time decisions to 
+              dominate matches through strategic movement and force. This project aims to enhance skills in
+               electronics, programming, and robotics by applying them in a fun and competitive environment.</p>
+        </div>
+        <div class="content-image">
+        <img class="allimg" src="image/project3.jpg" alt="projecttwo" height="400" width="600"> 
+         <h2>🧠 Project Title: Fingerprint Attendance System with SMS Alert</h2>
+         <p>🎯 Goal: The goal of this project is to automate attendance tracking using biometric
+             verification while enhancing communication with parents by sending real-time SMS alerts. 
+             It aims to reduce manual attendance errors, prevent proxy attendance, and improve student
+              monitoring by notifying parents every time their child arrives at school.</p>
+         <p>The Fingerprint Attendance System with SMS Alert is an Arduino-based biometric project 
+            designed for educational institutions or small offices. The system uses a fingerprint sensor
+             to record a student’s or employee’s attendance. When a registered fingerprint is scanned, the 
+             system logs the attendance and immediately sends an SMS notification to the parent or guardian’s 
+             phone using a GSM module. This real-time communication keeps parents informed of their child’s 
+             presence at school and adds a layer of accountability and safety.</p>
+           </div> 
+
+           <div class="content-image">
+            <img class="allimg" src="image/project4.jpg" alt="projecttwo" height="400" width="600">
+             <h2>🧠 Project Title: Doorbell with Motion Detection and SMS Alert</h2>
+             <p>🎯 Goal: The goal of this project is to enhance home security by detecting motion near the entrance and sending an instant SMS notification to the homeowner. It aims to act as a smart doorbell system that not only rings inside the house but also communicates potential visitor presence or suspicious activity directly to the owner’s mobile phone.</p>
+             <p>The Doorbell with Motion Detection and SMS Alert is a smart security project using an Arduino, designed to notify a homeowner when motion is detected near the door. The system uses a ultrasonic to detect movement and, when triggered, simultaneously sends an SMS alert to the user’s phone using a GSM module. This project combines security and convenience—alerting the homeowner even when they are away from home.</p>
+           </div>
+                      <div class="content-image">
+            <img class="allimg" src="image/project5.jpg" alt="projecttwo" height="400" width="600">
+             <h2>🧠 Project Title: Arduino-based obstacle detection system for the visually impaired</h2>
+             <p>🎯 Goal: The goal of this project is to enhance the mobility and safety of visually impaired individuals by providing real-time obstacle detection and automatic emergency alerts. By combining ultrasonic sensing, GPS location tracking, and SMS communication, the system offers both immediate feedback to the user and critical situational awareness to relatives or caregivers.</p>
+             <p>This project is a smart assistive device for blind or visually impaired individuals that uses ultrasonic sensors to detect nearby obstacles and sends an SMS alert with GPS coordinates to a relative or caregiver in case of a potential hazard. The device is worn by the user and continuously scans for obstructions in their path. If an obstacle is detected within a critical distance, the system not only alerts the user with vibration or sound but also sends a text message with their exact location using a GSM and GPS module.</p>
+           </div>
+
+                 <div class="content-image">
+            <img class="allimg" src="image/project6.jpg" alt="projecttwo" height="400" width="600">
+             <h2>🧠 Project Title: Autonomous Waste Segregation System</h2>
+             <p>🎯 The main goal of this project is to automate waste segregation using sensor technology to
+                 reduce human error, encourage recycling, and enhance waste management efficiency. By sorting 
+                 paper, plastic, and metal waste autonomously, this system supports environmental sustainability
+                  and prepares waste for appropriate recycling processes.</p>
+             <p>The Autonomous Waste Segregation System is an Arduino-powered smart solution designed to 
+                identify and automatically sort common types of solid waste—specifically paper, metal, and 
+                plastic—into separate bins. It uses a color sensor to detect paper waste, particularly white or 
+                printed paper, a capacitive sensor to identify metallic waste like aluminum or tin, and an 
+                inductive sensor to detect plastic items. The system uses this sensor data to automatically 
+                divert the waste into appropriate bins using servo-controlled gates or a sorting arm, significantly 
+                improving the speed and accuracy of waste handling in homes, schools, or waste collection centers.</p>
+           </div>
+                            <div class="content-image">
+            <img class="allimg" src="image/project7.jpg" alt="projecttwo" height="400" width="600">
+             <h2>🧠 Project Title: Autonomous Cashier System</h2>
+             <p>🎯 Goal: The goal of this project is to develop a fully autonomous, Arduino-compatible cashier system that 
+                can accept, validate, and process cash payments (both coins and bills), return accurate change, and print 
+                receipts, all without human input. This project aims to offer a practical, low-maintenance solution for small 
+                businesses and public services seeking to automate payment and transaction handling efficiently and reliably.</p>
+             <p>The Autonomous Cashier System is a self-service payment solution powered by ESP32, designed to handle physical cash
+                 transactions without 
+                human intervention. It incorporates a bill acceptor, coin acceptor, coin changer, and a Bluetooth thermal printer. 
+                The system accepts coins and paper bills, verifies the total payment, dispenses the correct change, and prints a 
+                transaction receipt—all 
+                managed through the ESP32 microcontroller. Ideal for vending machines, laundry kiosks, or ticketing stations, 
+                this compact system streamlines
+                 the payment process and reduces the need for staff supervision.
+             </p>
+           </div>
+                            <div class="content-image">
+            <img class="allimg" src="image/project8.jpg" alt="projecttwo" height="400" width="600">
+             <h2>🧠 Project Title: Fire Detection Robot </h2>
+             <p>🎯 Goal: The goal of this project is to develop an autonomous robot capable of detecting and responding to 
+                fire hazards by identifying flames, approaching the danger zone, and activating a fire extinguisher using a
+                 servo mechanism. It aims to provide a first-response fire suppression system that can work in confined or 
+                 hard-to-reach areas, helping reduce damage before human intervention is possible.</p>
+             <p>The Fire Detection Robot is an autonomous, mobile firefighting unit designed to detect fire and respond 
+                quickly to suppress it. Built on a two-wheeled robot platform, the system uses flame sensors to detect the
+                presence and direction of fire. Once detected, the robot navigates toward the source of the flame. Upon reaching
+                 the fire, a servo motor activates a small portable fire extinguisher, releasing a burst to suppress the flame.
+                  This robot is ideal for indoor fire monitoring in critical zones such as server rooms, kitchens, or small warehouses.</p>
+           </div>
+                     </div>
+            </section>
+        </main>
+     <footer>
+    <p>&copy; 2025 Preal Jesse Gepulgane. All Rights Reserved.</p>
+    <p>Inspired by Wreck-It Ralph</p>
+  </footer>
+  </body>
+  </html>
