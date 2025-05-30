@@ -1,5 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/joystix');
-
+@import url("https://fonts.cdnfonts.com/css/joystix");
 
 * {
   margin: 0;
@@ -7,9 +6,8 @@
   box-sizing: border-box;
 }
 
-
 body {
-  font-family: 'Joystix', sans-serif;
+  font-family: "Joystix", sans-serif;
   background-color: #0e0e26;
   color: #ffffff;
   line-height: 1.6;
@@ -77,40 +75,39 @@ main {
   width: 100%;
 }
 /* first page*/
-.hero{
-    display: flex;
-    justify-content: space-between;
-   align-items: center;
-   padding: 120px;
-   width: 100%;
-   background-color: #0c0c24; 
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px;
+  width: 100%;
+  background-color: #0c0c24;
   background-image: linear-gradient(#0c0c24, #1a1a40);
   margin-bottom: 100px #1a1a40;
- 
 }
 
-.hero-text h1{
- font-family: 'Joystix', sans-serif;
- font-size: 64px;
- color: #ffd166;
- line-height: 0.9;
- margin-left: 50px;
+.hero-text h1 {
+  font-family: "Joystix", sans-serif;
+  font-size: 64px;
+  color: #ffd166;
+  line-height: 0.9;
+  margin-left: 50px;
 }
 
-.slogan{
-    font-size: 24px;
+.slogan {
+  font-size: 24px;
   color: #06d69f;
   margin-top: 20px;
-   margin-left: 50px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .description {
   margin: 40px 0;
   font-size: 16px;
   line-height: 1.5;
-   margin-left: 50px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .buttons .btn {
@@ -128,14 +125,13 @@ main {
   background-color: #ff6b6b;
   border-color: #ffd166;
   color: white;
-   margin-left: 50px;
+  margin-left: 50px;
 }
 
 .btn.green {
   background-color: #06d69f;
   border-color: #128ab3;
   color: white;
- 
 }
 
 .hero-image img {
@@ -145,7 +141,6 @@ main {
   height: auto;
 }
 
-
 /*bouncing name*/
 .bounce-text h1 {
   animation: bounce 4s ease-in-out infinite alternate;
@@ -153,11 +148,21 @@ main {
 }
 
 @keyframes bounce {
-  0%   { transform: translateX(0); }
-  25%   { transform: translateY(10px); }
-  50%   { transform: translateX(-5px); }
-  75%   { transform: translateY(10px); }
-  100% { transform: translateX(5px); }
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateX(-5px);
+  }
+  75% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateX(5px);
+  }
 }
 
 /* About Me Section */
@@ -230,7 +235,7 @@ main {
 .story-box p {
   margin: 10px 0;
   line-height: 1.5;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1.2rem;
 }
 
@@ -257,11 +262,21 @@ main {
 }
 
 @keyframes bounce {
-  0% { transform: translateY(0); }
-  30% { transform: translateY(-10px); }
-  50% { transform: translateY(5px); }
-  70% { transform: translateY(-5px); }
-  100% { transform: translateY(0); }
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  70% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .skill-card .icon {
@@ -277,7 +292,7 @@ main {
 .skill-card p {
   font-size: 0.9rem;
   line-height: 1.5;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .bottom-one {
@@ -297,7 +312,6 @@ main {
   width: 100%;
   height: 20px;
 }
-
 
 /* Power ups section */
 /* Power ups section */
@@ -331,7 +345,7 @@ main {
 .subtitle {
   color: #ccc;
   margin-bottom: 2rem;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1rem;
 }
 
@@ -347,17 +361,17 @@ main {
 .technical-skills {
   flex: 1;
   min-width: 300px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .technical-skills h2 {
-  font-family: 'Joystix', sans-serif;
+  font-family: "Joystix", sans-serif;
 }
 
 .soft-skills {
   flex: 1;
   min-width: 300px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .power h2 {
@@ -404,8 +418,6 @@ main {
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
   margin-bottom: 80px;
-  
-
 }
 
 .htwotwo {
@@ -441,10 +453,18 @@ main {
   margin-bottom: 0.5rem;
 }
 
-.red { background: #ff6e6e; }
-.green { background: #00cc88; }
-.blue { background: #3399ff; }
-.yellow { background: #ffd166 }
+.red {
+  background: #ff6e6e;
+}
+.green {
+  background: #00cc88;
+}
+.blue {
+  background: #3399ff;
+}
+.yellow {
+  background: #ffd166;
+}
 
 .tools {
   margin-top: 2rem;
@@ -465,22 +485,21 @@ main {
   font-size: 0.9rem;
 }
 
-
 /*-----PROJECT SENTION------*/
 
 .projects-section {
   text-align: center;
   padding: 50px 20px;
-    position: relative;
+  position: relative;
   z-index: 10;
 }
-.htwo{
-   color: #ffd166;
+.htwo {
+  color: #ffd166;
   font-size: 2rem;
   margin-bottom: 10px;
 }
-.htwo::after{
-   content: "";
+.htwo::after {
+  content: "";
   display: block;
   height: 4px;
   width: 100px;
@@ -552,7 +571,7 @@ main {
 }
 
 button {
-  font-family: 'Press Start 2P', monospace;
+  font-family: "Press Start 2P", monospace;
   font-size: 10px;
   border: none;
   padding: 8px 14px;
@@ -581,11 +600,8 @@ button {
   font-size: 10px;
   padding: 10px 20px;
   border: 2px solid #fdd835;
-margin-bottom: 50px;
+  margin-bottom: 50px;
 }
-
-
-
 
 /* contact section */
 
@@ -593,20 +609,20 @@ margin-bottom: 50px;
   padding: 60px 20px;
   text-align: center;
   background-color: #1a1a3f;
-    position: relative;
+  position: relative;
   z-index: 10;
 }
 
-.sectionone{
+.sectionone {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   border: 5px solid #679cf048;
   max-width: 600px;
-  width: 100%;        /* Allow shrinking */
+  width: 100%; /* Allow shrinking */
   box-sizing: border-box; /* Prevent border from overflowing */
-  margin: 0 auto;   
+  margin: 0 auto;
 }
 .contact-section h1 {
   color: #ffd166;
@@ -614,8 +630,8 @@ margin-bottom: 50px;
   margin-bottom: 10px;
 }
 
-.contact-section h1::after{
-    content: "";
+.contact-section h1::after {
+  content: "";
   display: block;
   height: 4px;
   width: 100px;
@@ -631,7 +647,7 @@ margin-bottom: 50px;
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .contact-container {
@@ -641,15 +657,13 @@ margin-bottom: 50px;
   gap: 40px;
 }
 
-.contact-form
- {
- 
+.contact-form {
   border: 4px solid;
   border-image: linear-gradient(to right, #00fff7, #ffd95a) 1;
   border-radius: 10px;
   padding: 20px;
   width: 500px;
-  box-shadow: 0 0 10px rgba(0,255,255,0.2);
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
 }
 
 .contact-form label {
@@ -659,29 +673,27 @@ margin-bottom: 50px;
   margin: 10px 0 5px;
   color: #ffd95a;
 }
-.contacttwo{
- position: flex;
+.contacttwo {
+  position: flex;
   justify-content: flex start;
   flex-wrap: wrap;
   gap: 20px;
 }
 
-.contacttwo h2{
-font-size: 18px;
-color: #06d69f;
-padding: 30px;
- width: 100%;       
+.contacttwo h2 {
+  font-size: 18px;
+  color: #06d69f;
+  padding: 30px;
+  width: 100%;
 }
 
-.contacttwo p{
-font-size: 12px;
+.contacttwo p {
+  font-size: 12px;
 }
-.contacttwo h3{
+.contacttwo h3 {
   font-size: 16px;
   color: #ffd95a;
 }
-
-
 
 .contact-form input,
 .contact-form textarea {
@@ -712,10 +724,9 @@ font-size: 12px;
   border-bottom: 4px solid #ff9f80;
 }
 
-.social-icons{
+.social-icons {
   padding-top: 20px;
 }
-
 
 /* Footer */
 footer {
@@ -725,7 +736,7 @@ footer {
   color: rgb(255, 255, 255);
   border-top: 5px solid #ffd166;
   animation: fadeIn 1.5s ease-in-out;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 12px;
 }
 
@@ -736,7 +747,7 @@ footer {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  z-index: 0;   
+  z-index: 0;
 }
 
 .sun {
@@ -757,13 +768,12 @@ footer {
   margin-top: 80px;
   border-radius: 20px;
   width: 100px;
-   z-index: 1;
+  z-index: 1;
   height: 60px;
   opacity: 0.8;
   background-size: contain;
   background-repeat: no-repeat;
 }
-
 
 .cloud1 {
   top: 80px;
@@ -791,7 +801,8 @@ footer {
 }
 
 @keyframes pulseSun {
-  0%, 100% {
+  0%,
+  100% {
     transform: scale(1);
     box-shadow: 0 0 15px #ffd166;
   }
@@ -842,145 +853,141 @@ footer {
     justify-content: space-between;
     width: 100%;
   }
-   .hero {
-     width: 100%;
-       flex-direction: column;
+  .hero {
+    width: 100%;
+    flex-direction: column;
   }
-.hero-text h1{
-font-size: 40px;
-margin-right: 40px;
-}
- 
-  .hero-text, .hero-image {
+  .hero-text h1 {
+    font-size: 40px;
+    margin-right: 40px;
+  }
+
+  .hero-text,
+  .hero-image {
     margin: 0;
   }
 
-  .slogan{
+  .slogan {
     margin-right: 50px;
   }
-  .description{
-     margin-right: 50px;
+  .description {
+    margin-right: 50px;
   }
   .hero-image img {
     margin: 70px 0;
     width: 600px;
     height: auto;
   }
-  .buttons{
+  .buttons {
     margin-right: 0px;
   }
-.about-section
-{
-  justify-content: center;
-}
-.skills-grid{
-  justify-content: center;
-  grid-template-columns: repeat(2, minmax(200px, 1fr));
-}
-.sun{
-     right: 50px;
+  .about-section {
+    justify-content: center;
+  }
+  .skills-grid {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+  }
+  .sun {
+    right: 50px;
     top: 120px;
-  width: 60px;
-  height: 60px;
-}
-.skill{
-  margin-left: 50px;
-}
+    width: 60px;
+    height: 60px;
+  }
+  .skill {
+    margin-left: 50px;
+  }
 
-.sectionone{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  border: 5px solid #679cf048;
-  max-width: 400px;
-  width: 100%;        /* Allow shrinking */
-  box-sizing: border-box; /* Prevent border from overflowing */
-  margin: 0 auto;  
-}
+  .sectionone {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #679cf048;
+    max-width: 400px;
+    width: 100%; /* Allow shrinking */
+    box-sizing: border-box; /* Prevent border from overflowing */
+    margin: 0 auto;
+  }
 
-.contacttwo{
-   position: flex;
-  justify-content: flex start;
-  flex-wrap: wrap;
-  text-align: center;
-  gap: 20px;
-}
+  .contacttwo {
+    position: flex;
+    justify-content: flex start;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px;
+  }
 
+  .contact-form,
+  .contacttwo {
+    margin: 0px;
+  }
+  .contacttwo {
+    width: 100%;
+  }
+  .soft-skills {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: flex;
+  }
 
-.contact-form, .contacttwo{
-  margin: 0px;
-
-}
-.contacttwo{
-width: 100%;
-}
-.soft-skills{
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  position: flex;
-  
-}
-
-footer{
-  width: 100%;
-}
+  footer {
+    width: 100%;
+  }
   .card p {
-font-size: 0.6rem;
+    font-size: 0.6rem;
   }
 
   .card h3 {
-font-size: 0.9rem;
+    font-size: 0.9rem;
   }
-  .allimg{
+  .allimg {
     width: 280px;
     height: 450px;
     position: flex;
   }
 }
-.buttons .btn, nav ul li a {
+.buttons .btn,
+nav ul li a {
   position: relative;
   z-index: 10;
 }
 
-
-.arduino-container{
+.arduino-container {
   position: flex;
-  justify-content: center;  
-   text-align: center;
-  align-items: center;      
-  margin: 0 auto;         
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
   padding: 2rem;
- border: 5px solid #00ffcc;
+  border: 5px solid #00ffcc;
   border-radius: 1rem;
-  max-width: 1000px;        
+  max-width: 1000px;
   background-color: #030d2a(171, 180, 208, 0.9);
   margin-bottom: 30px;
-  
 }
 
-.arduino-container h2
-{
+.arduino-container h2 {
   font-size: 20px;
   margin-top: 20px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
 }
-.arduino-container p{
+.arduino-container p {
   font-size: 15px;
   text-align: start;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-padding: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 20px;
 }
-.arduino-title h1{
+.arduino-title h1 {
   font-size: 2rem;
   text-align: center;
   margin-top: 50px;
 }
 
-.arduino-title h1::after{
-    content: "";
+.arduino-title h1::after {
+  content: "";
   display: block;
   height: 4px;
   width: 100px;
@@ -988,41 +995,36 @@ padding: 20px;
   margin: 10px auto 0;
 }
 
-.arduino-title p{
+.arduino-title p {
   margin-top: 30px;
   font-size: 1.2;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
-  margin-bottom: 40px; 
+  margin-bottom: 40px;
 }
 
-.content-image{
-border: 5px solid coral;
-position: flex;
-margin-bottom: 30px;
-
+.content-image {
+  border: 5px solid coral;
+  position: flex;
+  margin-bottom: 30px;
 }
 
 .allimg {
   margin-top: 30px;
 }
 
-buttonone {
+.buttonone {
   padding: 12px 24px;
   font-size: 16px;
-   background-color: #08a9ff;
+  background-color: #08a9ff;
   color: white;
   border: none;
   border-radius: 6px;
   cursor: pointer;
   margin-bottom: 50px;
-   border: 4px solid;
+  border: 4px solid;
   box-shadow: 0 6px #cc4b4b;
 }
-buttonone:hover {
+.button:hover {
   background-color: #536e5d;
-}
-
-.onetoo{
-  margin-bottom: 50px;
 }
