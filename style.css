@@ -404,6 +404,8 @@ main {
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
   margin-bottom: 80px;
+  
+
 }
 
 .htwotwo {
@@ -816,8 +818,8 @@ footer {
     display: none;
     background-color: #0e0e26;
     position: absolute;
-    top: 70px;
-     right: 0;
+    top: 50px;
+    right: 0;
     z-index: 999;
     justify-content: end;
   }
@@ -931,6 +933,9 @@ font-size: 0.6rem;
   .card h3 {
 font-size: 0.9rem;
   }
+  .allimg{
+    width: 350px;
+  }
 }
 .buttons .btn, nav ul li a {
   position: relative;
@@ -938,14 +943,64 @@ font-size: 0.9rem;
 }
 
 
-.arduino-container {
-  display: flex;
+.arduino-container{
+  position: flex;
   justify-content: center;  
-  align-items: center;    
+   text-align: center;
+  align-items: center;      
   margin: 0 auto;         
   padding: 2rem;
-  border: 2px solid #007ACC; 
+ border: 5px solid #00ffcc;
   border-radius: 1rem;
-  max-width: 800px;        
-  background-color: #fff; 
+  max-width: 1000px;        
+  background-color: #030d2a(171, 180, 208, 0.9);
+  margin-bottom: 30px;
+  
+}
+
+.arduino-container h2
+{
+  font-size: 20px;
+  margin-top: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+.arduino-container p{
+  font-size: 15px;
+  text-align: start;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+padding: 20px;
+}
+.arduino-title h1{
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.arduino-title h1::after{
+    content: "";
+  display: block;
+  height: 4px;
+  width: 100px;
+  background: #ff4d6d;
+  margin: 10px auto 0;
+}
+
+.arduino-title p{
+  margin-top: 30px;
+  font-size: 1.2;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-bottom: 40px; 
+}
+
+.content-image{
+border: 5px solid coral;
+position: flex;
+margin-bottom: 30px;
+
+}
+
+.allimg {
+  margin-top: 30px;
 }
