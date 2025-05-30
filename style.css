@@ -936,7 +936,7 @@ font-size: 0.9rem;
   .allimg{
     width: 250px;
     height: 500px;
-     position: flex;
+    position: flex;
   }
 }
 .buttons .btn, nav ul li a {
