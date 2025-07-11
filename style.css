@@ -74,6 +74,7 @@ main {
   z-index: 2;
   width: 100%;
 }
+
 /* first page*/
 .hero {
   display: flex;
@@ -151,15 +152,19 @@ main {
   0% {
     transform: translateX(0);
   }
+
   25% {
     transform: translateY(10px);
   }
+
   50% {
     transform: translateX(-5px);
   }
+
   75% {
     transform: translateY(10px);
   }
+
   100% {
     transform: translateX(5px);
   }
@@ -265,15 +270,19 @@ main {
   0% {
     transform: translateY(0);
   }
+
   30% {
     transform: translateY(-10px);
   }
+
   50% {
     transform: translateY(5px);
   }
+
   70% {
     transform: translateY(-5px);
   }
+
   100% {
     transform: translateY(0);
   }
@@ -456,12 +465,15 @@ main {
 .red {
   background: #ff6e6e;
 }
+
 .green {
   background: #00cc88;
 }
+
 .blue {
   background: #3399ff;
 }
+
 .yellow {
   background: #ffd166;
 }
@@ -493,11 +505,13 @@ main {
   position: relative;
   z-index: 10;
 }
+
 .htwo {
   color: #ffd166;
   font-size: 2rem;
   margin-bottom: 10px;
 }
+
 .htwo::after {
   content: "";
   display: block;
@@ -544,13 +558,15 @@ main {
 }
 
 .project-card h3 {
-  font-size: 12px;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   color: #fff;
   margin-bottom: 10px;
 }
 
 .project-card p {
-  font-size: 10px;
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: #eee;
   margin-bottom: 10px;
   line-height: 1.4;
@@ -620,10 +636,13 @@ button {
   align-items: center;
   border: 5px solid #679cf048;
   max-width: 600px;
-  width: 100%; /* Allow shrinking */
-  box-sizing: border-box; /* Prevent border from overflowing */
+  width: 100%;
+  /* Allow shrinking */
+  box-sizing: border-box;
+  /* Prevent border from overflowing */
   margin: 0 auto;
 }
+
 .contact-section h1 {
   color: #ffd166;
   font-size: 36px;
@@ -673,6 +692,7 @@ button {
   margin: 10px 0 5px;
   color: #ffd95a;
 }
+
 .contacttwo {
   position: flex;
   justify-content: flex start;
@@ -690,6 +710,7 @@ button {
 .contacttwo p {
   font-size: 12px;
 }
+
 .contacttwo h3 {
   font-size: 16px;
   color: #ffd95a;
@@ -780,11 +801,13 @@ footer {
   left: -120px;
   animation: moveCloud 40s linear infinite;
 }
+
 .cloud2 {
   top: 150px;
   left: -180px;
   animation: moveCloud 60s linear infinite;
 }
+
 .cloud3 {
   top: 200px;
   left: -150px;
@@ -795,17 +818,20 @@ footer {
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(140vw);
   }
 }
 
 @keyframes pulseSun {
+
   0%,
   100% {
     transform: scale(1);
     box-shadow: 0 0 15px #ffd166;
   }
+
   50% {
     transform: scale(1.05);
     box-shadow: 0 0 25px #ffe066;
@@ -825,6 +851,7 @@ footer {
   .menu-toggle {
     display: block;
   }
+
   nav {
     display: none;
     background-color: #0e0e26;
@@ -834,6 +861,7 @@ footer {
     z-index: 999;
     justify-content: end;
   }
+
   nav ul {
     flex-direction: column;
     align-items: flex-start;
@@ -853,10 +881,12 @@ footer {
     justify-content: space-between;
     width: 100%;
   }
+
   .hero {
     width: 100%;
     flex-direction: column;
   }
+
   .hero-text h1 {
     font-size: 40px;
     margin-right: 40px;
@@ -870,30 +900,37 @@ footer {
   .slogan {
     margin-right: 50px;
   }
+
   .description {
     margin-right: 50px;
   }
+
   .hero-image img {
     margin: 70px 0;
     width: 600px;
     height: auto;
   }
+
   .buttons {
     margin-right: 0px;
   }
+
   .about-section {
     justify-content: center;
   }
+
   .skills-grid {
     justify-content: center;
     grid-template-columns: repeat(2, minmax(200px, 1fr));
   }
+
   .sun {
     right: 50px;
     top: 120px;
     width: 60px;
     height: 60px;
   }
+
   .skill {
     margin-left: 50px;
   }
@@ -905,8 +942,8 @@ footer {
     align-items: center;
     border: 5px solid #679cf048;
     max-width: 400px;
-    width: 100%; /* Allow shrinking */
-    box-sizing: border-box; /* Prevent border from overflowing */
+    width: 100%;
+    box-sizing: border-box;
     margin: 0 auto;
   }
 
@@ -922,9 +959,11 @@ footer {
   .contacttwo {
     margin: 0px;
   }
+
   .contacttwo {
     width: 100%;
   }
+
   .soft-skills {
     width: 100%;
     align-items: center;
@@ -935,6 +974,7 @@ footer {
   footer {
     width: 100%;
   }
+
   .card p {
     font-size: 0.6rem;
   }
@@ -942,18 +982,21 @@ footer {
   .card h3 {
     font-size: 0.9rem;
   }
+
   .allimg {
-    width: 280px;
+    width: 330px;
     height: 450px;
     position: flex;
   }
 }
+
 .buttons .btn,
 nav ul li a {
   position: relative;
   z-index: 10;
 }
 
+/* arduino project section*/
 .arduino-container {
   position: flex;
   justify-content: center;
@@ -974,16 +1017,19 @@ nav ul li a {
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
 }
+
 .arduino-container p {
   font-size: 15px;
   text-align: start;
   font-family: Georgia, "Times New Roman", Times, serif;
   padding: 20px;
 }
+
 .arduino-title h1 {
   font-size: 2rem;
   text-align: center;
   margin-top: 50px;
+  color: #ffd95a;
 }
 
 .arduino-title h1::after {
@@ -1025,6 +1071,76 @@ nav ul li a {
   border: 4px solid;
   box-shadow: 0 6px #cc4b4b;
 }
+
 .button:hover {
   background-color: #536e5d;
+}
+
+/*website*/
+
+.web-title h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 50px;
+  color: #ffd95a;
+}
+
+.web-title h1::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 100px;
+  background: #ff4d6d;
+  margin: 10px auto 0;
+}
+
+.web-title p {
+  margin-top: 30px;
+  font-size: 1.2;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.web-container {
+  position: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 5px solid #00ffcc;
+  border-radius: 1rem;
+  max-width: 1000px;
+  background-color: #030d2a(171, 180, 208, 0.9);
+  margin-bottom: 30px;
+}
+
+.web-image {
+  border: 5px solid coral;
+  position: flex;
+  margin-bottom: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.diceone {
+margin-top: 50px;
+}
+
+.demow-btn{
+margin: 50px;
+background-color: #ff6f61;
+  box-shadow: 0 6px #cc4b4b;
+  color: white;
+
+  padding-inline: 30px;
+}
+
+.web-image h2{
+  margin-top: 30px;
+}
+
+.web-image p{
+  margin-top: 50px;
+  margin-inline: 30px;
 }
